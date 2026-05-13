@@ -1,0 +1,26 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>SolarScorch</title>
+<rect width="680" height="420" fill="#1C1509"/>
+<line x1="0" y1="280" x2="680" y2="280" stroke="#8B6914" stroke-width="0.6" opacity="0.6"/>
+<path d="M40 282 Q160 40 340 30 Q520 40 640 282" fill="none" stroke="#C8A84B" stroke-width="1.5" opacity="0.7" stroke-dasharray="6 4"/>
+<circle cx="58" cy="276" r="5" fill="#EF9F27" opacity="0.9"/>
+<circle cx="340" cy="36" r="9" fill="#F9CB42" opacity="1"/>
+<circle cx="340" cy="36" r="16" fill="none" stroke="#F9CB42" stroke-width="0.8" opacity="0.4"/>
+<circle cx="530" cy="130" r="5" fill="#EF9F27" opacity="0.9"/>
+<circle cx="625" cy="278" r="5" fill="#D05538" opacity="0.9"/>
+<circle cx="340" cy="290" r="4" fill="#C8A84B" opacity="0.8"/>
+<line x1="340" y1="290" x2="340" y2="180" stroke="#C8A84B" stroke-width="0.6" opacity="0.5" stroke-dasharray="3 4"/>
+<line x1="340" y1="290" x2="268" y2="185" stroke="#C8A84B" stroke-width="0.5" opacity="0.4" stroke-dasharray="3 4"/>
+<line x1="340" y1="290" x2="500" y2="220" stroke="#C8A84B" stroke-width="0.5" opacity="0.4" stroke-dasharray="3 4"/>
+<circle cx="80" cy="340" r="30" fill="none" stroke="#8B6914" stroke-width="0.5" opacity="0.4"/>
+<line x1="80" y1="308" x2="80" y2="370" stroke="#C8A84B" stroke-width="0.5" opacity="0.4"/>
+<line x1="48" y1="340" x2="112" y2="340" stroke="#C8A84B" stroke-width="0.5" opacity="0.4"/>
+<text x="80" y="303" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#C8A84B" opacity="0.6">N</text>
+<text x="340" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#C8A84B" letter-spacing="2">SOLAR</text>
+<text x="340" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#EF9F27" letter-spacing="2">SCORCH</text>
+<line x1="200" y1="205" x2="480" y2="205" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"/>
+<text x="340" y="225" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#C8A84B" font-style="italic" opacity="0.8">Solar geometry - Spectral science - CA673 analysis</text>
+<text x="340" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#9B7A20" opacity="0.7">6 of 7 bearings confirmed - 1 anomalous bearing</text>
+<text x="340" y="404" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#C8A84B" opacity="0.7">DRAFT STAGE - TYPE A/B - RSV 2026</text>
+<rect x="8" y="8" width="664" height="404" rx="2" fill="none" stroke="#8B6914" stroke-width="0.8" opacity="0.4"/>
+</svg>
