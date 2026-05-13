@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>CA f.673r Lion Rooms — Saint John Optical Test v0.2</name>
+
+  <Style id="blueLine"><LineStyle><color>ffff0000</color><width>4</width></LineStyle></Style>
+  <Style id="goldLine"><LineStyle><color>ff00d7ff</color><width>4</width></LineStyle></Style>
+  <Style id="redLine"><LineStyle><color>ff0000ff</color><width>4</width></LineStyle></Style>
+  <Style id="greenLine"><LineStyle><color>ff00aa00</color><width>5</width></LineStyle></Style>
+  <Style id="purpleLine"><LineStyle><color>ffff00aa</color><width>4</width></LineStyle></Style>
+  <Style id="pin"><IconStyle><scale>1.1</scale></IconStyle></Style>
+
+  
+    <Placemark>
+      <name>Via dei Leoni street reference</name>
+      <description><![CDATA[Wikimedia street coordinate: 43°46′08.63″N, 11°15′26.07″E.]]></description>
+      <styleUrl>#pin</styleUrl>
+      <Point><coordinates>11.257241666666667,43.76906388888889,0</coordinates></Point>
+    </Placemark>
+    
+  
+    <Placemark>
+      <name>Lion-room west/back-palace working pin</name>
+      <styleUrl>#pin</styleUrl>
+      <Point><coordinates>11.25638,43.769,0</coordinates></Point>
+    </Placemark>
+    
+  <Placemark>
+    <name>Palazzo Vecchio / Tower reference</name>
+    <styleUrl>#pin</styleUrl>
+    <Point><coordinates>11.25611111111111,43.769444444444446,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
