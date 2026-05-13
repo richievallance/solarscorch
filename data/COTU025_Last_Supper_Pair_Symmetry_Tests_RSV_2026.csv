@@ -1,0 +1,8 @@
+pair,hand_a,hand_b,dx_opposition_error,dy_alignment_error,vector_length_difference,interpretation
+Christ release pair,H13,H14,0.0,0.0,0.0,strong symmetry
+Andrew brake pair,H5,H6,0.0,0.0,0.0,strong symmetry
+James Major shock pair,H16,H17,0.0,0.0,0.0,strong symmetry
+Philip self-reference pair,H18,H19,0.0,0.0,0.0,strong symmetry
+Matthew routing pair,H20,H21,0.0050000000000000044,0.0,0.004371625939237053,partial symmetry
+Jude relay pair,H22,H23,0.0,0.009,0.004975535894686113,partial symmetry
+Simon judgement pair,H24,H25,0.005000000000000001,0.009,0.009414392409611519,partial symmetry
