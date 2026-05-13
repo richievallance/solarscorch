@@ -1,0 +1,6 @@
+group,state,x_min,x_max,width,centre_x,distance_from_christ_axis,hand_count,dominant_function_counts,avg_dx,avg_dy,avg_vector_length
+A,support / shock,0.05,0.3,0.25,0.175,-0.325,6,"{""support"": 2, ""coupling"": 1, ""restraint"": 1, ""brake"": 2}",0.0075,-0.0075,0.027477195261677374
+B,concealment / rupture,0.3,0.48,0.18,0.39,-0.10999999999999999,6,"{""concealment"": 2, ""interruption"": 1, ""rupture"": 1, ""receiving"": 2}",0.0016666666666666663,0.008166666666666666,0.017722707396888682
+Centre,central release,0.48,0.53,0.050000000000000044,0.505,0.0050000000000000044,2,"{""release"": 2}",0.0,0.018,0.034985711369071804
+C,question / self-reference,0.55,0.75,0.19999999999999996,0.65,0.15000000000000002,5,"{""pointing"": 1, ""expansion"": 2, ""self-reference"": 2}",0.0,-0.039799999999999995,0.042891637587734524
+D,relay / judgement,0.77,0.97,0.19999999999999996,0.87,0.37,6,"{""routing"": 2, ""relay"": 2, ""receiving"": 2}",-0.0016666666666666676,-0.015,0.027930352124945452
