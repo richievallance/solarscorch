@@ -1,3 +1,7 @@
+![SolarScorch — Solar Geometry and Spectral Science
+
+Draft Stage](assets/covers/solarscorch_cover_v1.svg)
+
 # SolarScorch
 
 ## Solar Geometry, Spectral Science, CA673 Solar Modelling
