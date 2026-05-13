@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>CA f.673r Lion Rooms — Saint John Shadow Test v0.1</name>
+  <Placemark><name>Lion-room working pin</name><styleUrl>#pin</styleUrl><Point><coordinates>11.25638,43.769,0</coordinates></Point></Placemark>
+  <Placemark><name>Palazzo Vecchio reference</name><styleUrl>#pin</styleUrl><Point><coordinates>11.256111,43.769444,0</coordinates></Point></Placemark>
+</Document>
+</kml>
