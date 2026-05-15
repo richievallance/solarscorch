@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 960" width="680" height="960">
+  <defs>
+    <linearGradient id="stone" x1="0%" y1="0%" x2="5%" y2="100%">
+      <stop offset="0%" stop-color="#E8E0D0"/>
+      <stop offset="100%" stop-color="#D4C8B0"/>
+    </linearGradient>
+    <linearGradient id="goldtop2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C9A84C"/>
+      <stop offset="50%" stop-color="#8B6914"/>
+      <stop offset="100%" stop-color="#6B4F0E"/>
+    </linearGradient>
+    <radialGradient id="solarbeam" cx="50%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#C4830A" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C4830A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Stone survey ground -->
+  <rect width="680" height="960" fill="url(#stone)"/>
+  <!-- Grid lines — survey paper -->
+  <g opacity="0.06" stroke="#3D2B1A" stroke-width="0.5">
+    <line x1="0" y1="200" x2="680" y2="200"/>
+    <line x1="0" y1="300" x2="680" y2="300"/>
+    <line x1="0" y1="400" x2="680" y2="400"/>
+    <line x1="0" y1="500" x2="680" y2="500"/>
+    <line x1="0" y1="600" x2="680" y2="600"/>
+    <line x1="0" y1="700" x2="680" y2="700"/>
+    <line x1="0" y1="800" x2="680" y2="800"/>
+    <line x1="170" y1="155" x2="170" y2="900"/>
+    <line x1="340" y1="155" x2="340" y2="900"/>
+    <line x1="510" y1="155" x2="510" y2="900"/>
+  </g>
+  <!-- Solar beam glow -->
+  <ellipse cx="340" cy="200" rx="200" ry="250" fill="url(#solarbeam)"/>
+  <!-- ═══ PALAZZO WINDOW APERTURE ═══ -->
+  <g transform="translate(340,290)">
+    <!-- Window frame -->
+    <rect x="-55" y="-80" width="110" height="140" rx="3" fill="none" stroke="#3D2B1A" stroke-width="2.5" opacity="0.8"/>
+    <!-- Arch top -->
+    <path d="M -55,-80 Q -55,-120 0,-120 Q 55,-120 55,-80" fill="none" stroke="#3D2B1A" stroke-width="2.5" opacity="0.8"/>
+    <!-- Window panes -->
+    <line x1="0" y1="-120" x2="0" y2="60" stroke="#3D2B1A" stroke-width="1" opacity="0.5"/>
+    <line x1="-55" y1="-20" x2="55" y2="-20" stroke="#3D2B1A" stroke-width="1" opacity="0.5"/>
+    <!-- Interior shadow -->
+    <rect x="-51" y="-76" width="102" height="132" rx="2" fill="#2A1C0E" opacity="0.25"/>
+  </g>
+  <!-- ═══ SOLAR TRAJECTORY LINE — main bearing ═══ -->
+  <g opacity="0.7">
+    <!-- Primary solar bearing line — amber -->
+    <line x1="100" y1="160" x2="580" y2="680" stroke="#C4830A" stroke-width="2.2"/>
+    <!-- Shadow projection on floor -->
+    <line x1="290" y1="440" x2="580" y2="680" stroke="#3D2B1A" stroke-width="3" opacity="0.5"/>
+    <!-- Bearing arc -->
+    <path d="M 340,530 A 80,80 0 0,1 408,478" fill="none" stroke="#C4830A" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <!-- Degree annotation -->
+    <text x="392" y="504" font-family="Georgia, serif" font-size="11" fill="#3D2B1A" opacity="0.7">156.4°</text>
+    <!-- Anomaly mark -->
+    <circle cx="395" cy="495" r="14" fill="none" stroke="#8B3B1E" stroke-width="1" opacity="0.5"/>
+    <!-- Secondary bearing — dashed -->
+    <line x1="340" y1="290" x2="135" y2="680" stroke="#3D2B1A" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.4"/>
+  </g>
+  <!-- Floor plan outline -->
+  <g opacity="0.35" stroke="#3D2B1A" stroke-width="1.5" fill="none">
+    <rect x="120" y="580" width="440" height="240" rx="2"/>
+    <rect x="148" y="608" width="80" height="80"/>
+    <rect x="452" y="608" width="80" height="80"/>
+    <line x1="120" y1="680" x2="560" y2="680"/>
+    <!-- Compass rose -->
+    <g transform="translate(560,530)">
+      <line x1="0" y1="-22" x2="0" y2="22" stroke-width="1.2"/>
+      <line x1="-22" y1="0" x2="22" y2="0" stroke-width="1.2"/>
+      <polygon points="0,-22 -5,-8 5,-8" fill="#3D2B1A" opacity="0.6"/>
+      <circle r="4" fill="none" stroke-width="1"/>
+      <text x="5" y="-12" font-family="Georgia" font-size="9" fill="#3D2B1A">N</text>
+    </g>
+  </g>
+  <!-- Astrolabe cross-section — lower right -->
+  <g transform="translate(545,660)" opacity="0.55">
+    <circle r="55" fill="none" stroke="#3D2B1A" stroke-width="1.5"/>
+    <circle r="42" fill="none" stroke="#3D2B1A" stroke-width="0.8"/>
+    <circle r="5" fill="#3D2B1A"/>
+    <!-- Degree markings -->
+    <g stroke="#3D2B1A" stroke-width="1">
+      <line x1="0" y1="-42" x2="0" y2="-55"/>
+      <line x1="0" y1="42" x2="0" y2="55"/>
+      <line x1="-42" y1="0" x2="-55" y2="0"/>
+      <line x1="42" y1="0" x2="55" y2="0"/>
+      <g transform="rotate(30)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+      <g transform="rotate(60)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+      <g transform="rotate(120)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+      <g transform="rotate(150)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+      <g transform="rotate(210)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+      <g transform="rotate(240)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+      <g transform="rotate(300)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+      <g transform="rotate(330)"><line x1="0" y1="-42" x2="0" y2="-50"/></g>
+    </g>
+    <!-- Alidade -->
+    <line x1="-45" y1="18" x2="45" y2="-18" stroke="#C4830A" stroke-width="1.5"/>
+  </g>
+  <!-- Survey annotation text lines -->
+  <g opacity="0.3" stroke="#3D2B1A" stroke-width="0.8">
+    <line x1="42" y1="350" x2="170" y2="350"/>
+    <line x1="42" y1="365" x2="162" y2="365"/>
+    <line x1="42" y1="380" x2="168" y2="380"/>
+    <line x1="42" y1="395" x2="155" y2="395"/>
+    <line x1="42" y1="430" x2="165" y2="430"/>
+    <line x1="42" y1="445" x2="158" y2="445"/>
+  </g>
+  <!-- ═══ GOLD TITLE BAR ═══ -->
+  <rect x="0" y="0" width="680" height="148" fill="url(#goldtop2)"/>
+  <rect x="0" y="144" width="680" height="4" fill="#4A3008"/>
+  <text x="340" y="58" font-family="Georgia, serif" font-size="36" font-weight="bold"
+        fill="#FAF0DC" text-anchor="middle" letter-spacing="6">SOLARSCORCH</text>
+  <line x1="60" y1="76" x2="620" y2="76" stroke="#C9A84C" stroke-width="0.8" opacity="0.55"/>
+  <text x="340" y="100" font-family="Georgia, serif" font-size="11" font-style="italic"
+        fill="#E8D4A0" text-anchor="middle" letter-spacing="1.5">CA673 · Codex Atlanticus · Solar Geometry</text>
+  <text x="340" y="128" font-family="Georgia, serif" font-size="10"
+        fill="#D4B870" text-anchor="middle" letter-spacing="1">Saint John the Baptist · Palazzo Vecchio · Florence · 1518</text>
+  <!-- ═══ BOTTOM BAR ═══ -->
+  <rect x="0" y="900" width="680" height="60" fill="#2A1A08" opacity="0.92"/>
+  <line x1="0" y1="900" x2="680" y2="900" stroke="#C9A84C" stroke-width="1"/>
+  <text x="340" y="926" font-family="Georgia, serif" font-size="11"
+        fill="#C9A84C" text-anchor="middle" letter-spacing="2">RICHARD STEVEN VALLANCE (DA VALENCA)</text>
+  <text x="340" y="948" font-family="Georgia, serif" font-size="9"
+        fill="#A08040" text-anchor="middle" letter-spacing="1">The People Focused Group · Doncaster, UK · 2026</text>
+</svg>
