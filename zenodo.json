@@ -1,0 +1,38 @@
+{
+  "title": "SolarScorch: Solar Geometry and Alignment Studies in Leonardo da Vinci's Codex Atlanticus",
+  "description": "Solar geometry and alignment study of Codex Atlanticus CA673. Identifies a 156.4 degree shadow bearing anomaly and proposes that Leonardo embedded systematic solar observation into his codex practice.",
+  "creators": [
+    {
+      "name": "Vallance, Richard Steven",
+      "affiliation": "The People Focused Group, Doncaster, UK"
+    }
+  ],
+  "keywords": [
+    "Leonardo da Vinci",
+    "Codex Atlanticus",
+    "solar geometry",
+    "CA673",
+    "shadow bearing",
+    "alignment",
+    "solar observation"
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "language": "eng",
+  "version": "0.4",
+  "publication_date": "2026-05-16",
+  "notes": "Pre-publication draft. DOI pending explicit release instruction from Richard Steven Vallance.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/richievallance/corpus-leonardianum",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/richievallance/da-vinci-ultimatium",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}
