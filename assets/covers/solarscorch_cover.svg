@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <defs>
+    <radialGradient id="stoneBg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3a2800"/>
+      <stop offset="50%" stop-color="#1a1200"/>
+      <stop offset="100%" stop-color="#0a0800"/>
+    </radialGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffcc00" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#ff8800" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff4400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1100" fill="url(#stoneBg)"/>
+  <!-- Stone texture -->
+  <rect x="0" y="0" width="800" height="1100" fill="#c8a060" opacity="0.04"/>
+
+  <!-- Solar disc -->
+  <circle cx="400" cy="300" r="120" fill="url(#sunGlow)"/>
+  <circle cx="400" cy="300" r="80" fill="#ffcc00" opacity="0.15"/>
+  <circle cx="400" cy="300" r="40" fill="#ffcc00" opacity="0.4"/>
+  <circle cx="400" cy="300" r="12" fill="#ffdd44" opacity="0.9"/>
+
+  <!-- Optical rays — aperture geometry -->
+  <g stroke="#ffcc00" stroke-width="1.5" opacity="0.5">
+    <line x1="400" y1="300" x2="400" y2="80"/><line x1="400" y1="300" x2="580" y2="164"/>
+    <line x1="400" y1="300" x2="643" y2="380"/><line x1="400" y1="300" x2="560" y2="540"/>
+    <line x1="400" y1="300" x2="400" y2="580"/><line x1="400" y1="300" x2="240" y2="540"/>
+    <line x1="400" y1="300" x2="157" y2="380"/><line x1="400" y1="300" x2="220" y2="164"/>
+  </g>
+
+  <!-- Shadow bearing line — 156.4° -->
+  <line x1="400" y1="300" x2="155" y2="575" stroke="#ff6600" stroke-width="2.5" opacity="0.8"/>
+  <circle cx="155" cy="575" r="5" fill="#ff6600" opacity="0.8"/>
+  <text x="130" y="600" font-family="Georgia, serif" font-size="11" fill="#ff6600" opacity="0.7">156.4°</text>
+
+  <!-- Observatory horizon line -->
+  <line x1="40" y1="520" x2="760" y2="520" stroke="#c8a060" stroke-width="2" opacity="0.4"/>
+  <!-- Stone pillars suggestion -->
+  <rect x="100" y="380" width="30" height="140" fill="#c8a060" opacity="0.12"/>
+  <rect x="670" y="380" width="30" height="140" fill="#c8a060" opacity="0.12"/>
+  <rect x="200" y="420" width="20" height="100" fill="#c8a060" opacity="0.08"/>
+  <rect x="580" y="420" width="20" height="100" fill="#c8a060" opacity="0.08"/>
+
+  <!-- Concentric alignment circles -->
+  <circle cx="400" cy="300" r="160" fill="none" stroke="#c8a060" stroke-width="1" stroke-dasharray="6,12" opacity="0.3"/>
+  <circle cx="400" cy="300" r="220" fill="none" stroke="#c8a060" stroke-width="1" stroke-dasharray="4,10" opacity="0.2"/>
+
+  <!-- Gold border -->
+  <rect x="20" y="20" width="760" height="1060" fill="none" stroke="#c8a060" stroke-width="2" opacity="0.6"/>
+
+  <!-- Title -->
+  <line x1="80" y1="620" x2="720" y2="620" stroke="#c8a060" stroke-width="1.5" opacity="0.5"/>
+  <text x="400" y="670" font-family="Georgia, serif" font-size="58" fill="#ffcc00" text-anchor="middle" font-weight="bold" letter-spacing="2">SOLAR</text>
+  <text x="400" y="730" font-family="Georgia, serif" font-size="46" fill="#ffcc00" text-anchor="middle" font-weight="bold" letter-spacing="4">SCORCH</text>
+  <line x1="80" y1="750" x2="720" y2="750" stroke="#c8a060" stroke-width="0.5" opacity="0.4"/>
+  <text x="400" y="790" font-family="Georgia, serif" font-size="15" fill="#c8a060" text-anchor="middle" font-style="italic">Solar Geometry and Alignment Studies</text>
+  <text x="400" y="815" font-family="Georgia, serif" font-size="13" fill="#8a7040" text-anchor="middle">Codex Atlanticus · CA673 · 156.4° Anomaly</text>
+
+  <text x="400" y="930" font-family="Georgia, serif" font-size="14" fill="#c8a060" text-anchor="middle">Richard Steven Vallance</text>
+  <text x="400" y="952" font-family="Georgia, serif" font-size="11" fill="#8a7040" text-anchor="middle">The People Focused Group · Doncaster, UK · 2026</text>
+  <text x="400" y="1058" font-family="Georgia, serif" font-size="10" fill="#8a7040" text-anchor="middle" letter-spacing="3" opacity="0.6">© 2026 RICHARD STEVEN VALLANCE</text>
+</svg>
