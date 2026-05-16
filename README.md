@@ -1,23 +1,23 @@
 # SOLARSCORCH
-## Solar Geometry, Alignment Studies & Codex Atlanticus CA673
+## Solar Geometry and Alignment Studies — Codex Atlanticus CA673
 
-**Author:** Richard Steven Vallance
-**Affiliation:** The People Focused Group (PFG), Doncaster, UK
-**Status:** CANDIDATE — pending anomaly documentation
-**Version:** v0.4 — Draft
-**Last Updated:** May 2026
+**Author:** Richard Steven Vallance · The People Focused Group, Doncaster, UK
+**Classification:** A — CANONICAL PUBLIC RELEASE
+**DOI Status:** CANDIDATE · held pending 156.4° anomaly documentation
+**Version:** 0.4 · May 2026
 
 ---
 
 ## Abstract
 
-This repository documents solar geometry and alignment studies connected to Leonardo da Vinci's Codex Atlanticus folio CA673, including analysis of a 156.4° shadow bearing anomaly identified during systematic solar position testing. The work contributes to the broader *Corpus Leonardianum Universale* project by establishing solar observation methodology as a component of Leonardo's systematic natural philosophy.
+Solar geometry and alignment study focused on Codex Atlanticus CA673. Solar position modelling identifies a 156.4° shadow bearing anomaly. Thesis: Leonardo embedded systematic solar observation methodology into his codex practice as a component of his unified natural philosophy.
 
 ---
 
-## Evidence and Caution Statement
+## Evidence Status
 
-This repository contains **Tier B supported hypotheses** pending complete anomaly documentation. The 156.4° bearing anomaly is a measured finding; its interpretation as intentional solar alignment design is Tier C speculative. Readers are advised this work is pre-publication.
+156.4° shadow bearing: **Tier B** — measured finding.
+Interpretation as intentional alignment: **Tier C** — speculative; requires full documentation for publication.
 
 ---
 
@@ -25,30 +25,37 @@ This repository contains **Tier B supported hypotheses** pending complete anomal
 
 | File | Description |
 |---|---|
-| SolarScorch_SpectralAnalysis_RSV_2026.docx | Principal analysis document |
-| NAVIGATION.md | Cross-repository navigation |
-| data/ | Raw solar test data |
+| SolarScorch_SpectralAnalysis_RSV_2026.docx | Principal analysis |
+| CITATION.cff | Machine-readable citation |
+| DOI_READINESS.md | Release gate checklist |
+| CHANGELOG.md | Version history |
+| RELATED_WORKS.md | Bibliography |
+
+---
+
+## Release Gate
+
+Document 156.4° anomaly fully in text + commit data CSV to /data/ + explicit RSV instruction.
 
 ---
 
 ## Citation
 
-Vallance, R.S. (2026). *SolarScorch: Solar Geometry and Alignment Studies*. Da Valenca Archive. The People Focused Group, Doncaster, UK. https://github.com/richievallance/solarscorch
+```
+Vallance, R.S. (2026). SolarScorch: Solar Geometry and Alignment Studies.
+Da Valenca Archive. https://github.com/richievallance/solarscorch
+```
 
 ---
 
-## DOI Status
+## Navigation
 
-CANDIDATE — held pending 156.4° anomaly documentation and explicit release instruction
-
----
-
-## Related Repositories
-
-- [da-vinci-mechanica](https://github.com/richievallance/da-vinci-mechanica) — Madrid Codex I
-- [figura-ultima](https://github.com/richievallance/figura-ultima) — Projection geometry
-- [corpus-leonardianum](https://github.com/richievallance/corpus-leonardianum) — Infrastructure portal
+| Repository | Relation |
+|---|---|
+| [corpus-leonardianum](https://github.com/richievallance/corpus-leonardianum) | Master portal |
+| [da-vinci-mechanica](https://github.com/richievallance/da-vinci-mechanica) | Madrid Codex I |
+| [figura-ultima](https://github.com/richievallance/figura-ultima) | Optical/projection geometry |
 
 ---
 
-*© 2026 Richard Steven Vallance. All Intellectual Property Reserved.*
+**Licence:** CC BY 4.0 · © 2026 Richard Steven Vallance · All Rights Reserved
